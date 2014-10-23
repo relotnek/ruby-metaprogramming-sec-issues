@@ -22,7 +22,7 @@ class DemosController < ApplicationController
 		type = params[:type]
 		if @acceptable_params.include?(type)
 			@employee.send("#{type}=", params[:value])
-			@employee.save!
+			@employee.sav
 		else			
 		end
 	redirect_to demos_demosend_path	
