@@ -10,4 +10,8 @@ class Sinny < Sinatra::Base
     
   end
 
+  get '/hello' do
+	"Hi There"
+  end
+
 end
